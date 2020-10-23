@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Yashashav DK"
-subtitle: "Observations of a mortal skeptic."
+subtitle: "Dwelling of a mere mortal."
 email: ydk61999@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Observations of a mortal skeptic.
+  Dwelling of a mere mortal.
 #twitter_username: username
 github_username: Yashashav
 minimal_mistakes_skin: dark
@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Yashashav DK"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Observations of a mortal skeptic."
+  bio    : "Dwelling of a mere mortal."
   links:
     #- label: "Website"
       #icon: "fas fa-fw fa-link"
@@ -93,11 +93,11 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
+      author_profile: false
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
